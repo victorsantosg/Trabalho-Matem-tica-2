@@ -1,0 +1,20 @@
+<meta charset ="UTF-8">
+<script>
+    	var p ,q ,r, condici;
+		condici = prompt("Digite uma formula proposicional: ")"
+	p = prompt("Digite o valor de p: ");
+	q = prompt("Digite o valor de q: ");
+	r = prompt("Digite o valor de r: ");
+	
+		if(p == "v") && (q == "v") && (r == "v")
+		{
+		document.write("É uma Tautologia!)
+		}else
+		{
+		document.write("Não é uma tautologia!")
+		}
+		if(condici == "p^q" || condici == "pvq"|| condici == "p->q")
+		{
+			document.write("É uma formula válida!")
+		}
+</script>
